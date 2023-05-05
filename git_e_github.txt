@@ -8,7 +8,7 @@
 4. Após isso é necessário utilizar o comando `git commit -m “mensagem”` para confirmar a versão
 5. Crie um repositório remoto no GitHub
 6. Então conecte o controle de versionamento com o repositório remoto usando o comando `git remote add origin “url do repositório”` 
-7. Depois defina o branch a qual será enviando as versões e já envie a versão com o comando `git push --set-upstream origin master`
+7. Depois defina o branch a qual será enviando as versões e já envie a versão com o comando `git push --set-upstream origin 'nome do branch'`
 
 ## Comandos
 
@@ -20,3 +20,4 @@
 - `git merge 'branch'` : altera o branch em que está com outra branch
 - `git pull`: adiciona atualização do repositório remoto para o local.
 - `git checkout -b “nome da branch”`: cria uma nova branch e já vai para ela.
+- `touch .gitignore`: cria um arquivo .gitignore
