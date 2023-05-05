@@ -1,0 +1,22 @@
+# Git e GitHub
+
+## Criando e utilizando controle de versionamento:
+
+1. No shell escreva o comando `git init`
+2. Após isso cheque o status da versão utilizando o comando `git status`
+3. Para adicionar os arquivos do repositório local ao controle use o comando `git add “arquivo”`, ou `git add .`
+4. Após isso é necessário utilizar o comando `git commit -m “mensagem”` para confirmar a versão
+5. Crie um repositório remoto no GitHub
+6. Então conecte o controle de versionamento com o repositório remoto usando o comando `git remote add origin “url do repositório”` 
+7. Depois defina o branch a qual será enviando as versões e já envie a versão com o comando `git push --set-upstream origin master`
+
+## Comandos
+
+- `git reflog`: mostra o histórico
+- `git reset --hard 'código da versão'`: volta para a versão escolhida no repositório local
+- `git branch`: checa os branch
+- `git branch “name”`: cria um branch
+- `git checkout`: muda o branch qual está sendo usado para armazenar as versões
+- `git merge 'branch'` : altera o branch em que está com outra branch
+- `git pull`: adiciona atualização do repositório remoto para o local.
+- `git checkout -b “nome da branch”`: cria uma nova branch e já vai para ela.
