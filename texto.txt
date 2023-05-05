@@ -1,9 +1,7 @@
 Codigo python:
 
 print("hello world")
-<<<<<<< HEAD
-=======
 x = 10
 y = 1
 z = y + x
->>>>>>> staging
+
